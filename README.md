@@ -11,6 +11,8 @@ This project involves setting up a NoSQL database, updating it with new data, an
 
 ### Part 2: Update the Database
 
+- [NoSQL Database Setup and Update](NoSQL_setup_starter.ipynb)
+
 1. **Add New Restaurant**: Added "Penang Flavours" to the database.
 2. **Update Data**: Found and updated the `BusinessTypeID` for the new restaurant.
 3. **Remove Establishments**: Deleted all establishments in the Dover Local Authority.
@@ -18,22 +20,27 @@ This project involves setting up a NoSQL database, updating it with new data, an
 
 ### Part 3: Exploratory Analysis
 
+- [Exploratory Analysis](NoSQL_analysis_starter.ipynb)
+
 1. **Which establishments have a hygiene score equal to 20?**
-   - 
+   - [image](images/hygiene_20.png)
    
 2. **Which establishments in London have a `RatingValue` greater than or equal to 4?**
-   - Found establishments in London with a `RatingValue` >= 4.
+   - [image](images/london_rating.png)
 
 3. **What are the top 5 establishments with a `RatingValue` of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?**
-   - Listed the top 5 establishments with a `RatingValue` of 5, sorted by lowest hygiene score, near "Penang Flavours".
+   - [image](images/top_five.png)
 
 4. **How many establishments in each Local Authority area have a hygiene score of 0?**
-   - Counted establishments with a hygiene score of 0 in each Local Authority area and sorted them from highest to lowest.
+   - [image](images/hygiene_zero.png)
 
-### Links to My Work
 
-- [NoSQL Database Setup and Update](link_to_your_nosql_setup_notebook)
-- [Exploratory Analysis](link_to_your_nosql_analysis_notebook)
+### Resources
 
-Please replace the placeholder `link_to_your_nosql_setup_notebook` and `link_to_your_nosql_analysis_notebook` with the actual links to your notebooks.
+- MongoDB Documentation: [https://docs.mongodb.com/](https://docs.mongodb.com/)
+- PyMongo Documentation: [https://pymongo.readthedocs.io/](https://pymongo.readthedocs.io/)
+- Pandas Documentation: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+- ChatGPT by OpenAI for assistance with code and explanations
+
+
 
